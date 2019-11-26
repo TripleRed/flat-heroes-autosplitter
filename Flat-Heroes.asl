@@ -4,8 +4,10 @@ state("flat heroes")
 }
 startup
 {
-  println("Script initialised.");
-  println("Current levelno is saved as " + current.levelno);
+  print("Script initialising...");
+  print("Printing current.levelno...");
+  print(current.levelno);
+  print("Ready to run.");
 }
 split
 {
