@@ -1,15 +1,9 @@
 state("flatheroes")
 {
-<<<<<<< Updated upstream
   int levelno : "mono.dll", 0x001F62CC, 0x54, 0x78C, 0xC, 0x28, 0x1C;
 }
 startup
 {
-  print("Script initialising...");
-  print("Printing current.levelno...");
-  print(current.levelno);
-  print("Ready to run.");
-=======
   int levelno : 0x0006D538, 0x7B0, 0x8, 0x54, 0x78C, 0xC, 0x28, 0x1C;
 }
 init
@@ -26,7 +20,6 @@ start
 	return true;
   }
   return false;
->>>>>>> Stashed changes
 }
 split
 {
